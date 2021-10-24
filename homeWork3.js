@@ -41,8 +41,6 @@ function res3(arrText, align) {
           result.push(setAlign(part, align[i]));
           str = lastWord + " ";
         } else if (j === words.length - 1) {
-          console.log("words", words);
-          console.log("j", j);
           result.push(setAlign(str.trimEnd(), align[i]));
         }
       }
