@@ -7,7 +7,6 @@ function arrTest(matrix) {
   const result = [];
 
   for (let i = 0; i < matrix[0].length - 2; i++) {
-    // const plot =matrix[0].slice(i, i + 3).concat (matrix[1].slice(i, i + 3), matrix[2].slice(i, i + 3))
     const plot = [].concat(
       matrix[0].slice(i, i + 3),
       matrix[1].slice(i, i + 3),
